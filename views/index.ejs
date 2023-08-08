@@ -1,0 +1,14 @@
+
+<div class="container mt-3"><h1>ini halaman index</h1>
+    <h2>saya <%= nama %></h2>
+    <h4>daftar siswa</h4>
+    <% if (siswa.length < 1) { %>
+     <p>data siswa masih kosong</p>
+    <% } %>
+    <% siswa.forEach(swa => { %>
+     <ul>
+        <li> Nama : <%= swa.nama %> </li>
+        <li> Nama : <%= swa.email %> </li>
+     </ul>
+    <% }) %>
+   </div>
