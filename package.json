@@ -7,8 +7,9 @@
     "express-ejs-layouts": "^2.5.1",
     "express-session": "^1.17.3",
     "express-validator": "^7.0.1",
+    "method-override": "^3.0.0",
     "mongodb": "^5.7.0",
-    "mongoose": "^7.4.2"
+    "mongoose": "^6.10.0"
   },
   "name": "mongo",
   "version": "1.0.0",
